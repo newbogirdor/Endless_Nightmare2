@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+}
+
+body{
+  
+    text-align: center;
+    justify-content: center;
+    padding: 250px;
+    font-family: 'Inter', sans-serif;
+    background-image: url(https://i.ibb.co/pXCm3cx/background-image.jpg;);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.classesone{
+
+    border-radius: 6px;
+ 
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: gray;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px;
+    position: fixed; /* Fixa a barra de navegação no topo */
+    width: 65px; /* Faz com que a barra de navegação ocupe toda a largura */
+    
+    background-color: rgb(15, 15, 15);
+    
+  
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(236, 93, 93);
+    background-color: transparent;
+    opacity: 0.8;
+}
+
+p{
+    color: rgb(236, 56, 56);
+}
+
+.item-resultado {
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+
+    padding-left: 50px;
+
+}
+
+.item-resultado p {
+    margin-bottom: 20px; /* Ajuste o valor para controlar o espaçamento */
+    color: rgb(101, 112, 122);
+   
+  }
+h1 {
+    color: rgb(121, 114, 114);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    
+    font-family: 'Emilys Candy', cursive;
+}
+
+
+.initbutton {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 3px 3px 4px 10px;
+    background-color: rgb(232, 235, 62);
+    cursor: pointer;
+   
+   
+}
+.box1 {
+    padding-top: 30px;
+   
+  
+}
+
+footer {
+   margin: 50px;
+}
+
+
+/* Estilos gerais e reset */
+
+a.classesone {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFC700;
+    text-decoration: none;
+    margin: 20px;
+}
+
+a.classesone:hover {
+    color: #040101;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #FFC700;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.box1 {
+    text-align: center;
+}
+
+.initbutton {
+    padding: 10px 30px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    color: rgb(37, 30, 30);
+    background-color: #FFC700;
+    border: none;
+    cursor: pointer;
+}
+
+.item-resultado {
+    margin-bottom: 20px;
+    border: 1px solid #FFC700;
+    padding: 10px;
+}
+
+.descricao-meta {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .initbutton {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

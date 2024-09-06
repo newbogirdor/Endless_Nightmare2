@@ -1,0 +1,222 @@
+/* Estilos gerais e reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Contêiner principal */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+/* Contêiner de vidro */
+.glass-container {
+  display: block;
+  max-width: 100%;
+  margin-top: 10vh;
+}
+
+/* Navegação */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 30px;
+  position: relative;
+  color: rgb(243, 64, 64);
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar .navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.navbar .navbar-toggle .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: #FFC700;
+  margin: 5px auto;
+  transition: all 0.3s;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Estilos do corpo */
+body {
+  text-align: center;
+  padding-top: 160px;
+  background-image: url(https://i.ibb.co/pXCm3cx/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Títulos */
+h1 {
+  color: #FFC700;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  font-family: 'Emilys Candy', cursive;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+
+h3 span {
+  color: #FFC700;
+}
+
+/* Parágrafo */
+p {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 72px;
+  color: white;
+  opacity: 0.7;
+}
+
+/* Links */
+a {
+  padding: 12px 32px;
+  border: 1px solid gray;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: gray;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #040101;
+  background-color: #FFC700;
+}
+
+/* Botão Play Now */
+.playButton {
+  padding: 12px 32px;
+  border: 1px solid gray;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #040101;
+  background-color: #FFC700;
+  cursor: pointer;
+}
+
+/* Estilos específicos para telas pequenas */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar .nav-links.active {
+    display: flex;
+  }
+
+  .navbar .navbar-toggle {
+    display: block;
+  }
+
+  .navbar .navbar-toggle.open .bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 5px;
+  }
+
+  .navbar .navbar-toggle.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar .navbar-toggle.open .bar:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -5px;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+
+  .glass-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+/* Estilos para telas muito pequenas */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .playButton {
+    font-size: 18px;
+    padding: 10px 24px;
+  }
+}
