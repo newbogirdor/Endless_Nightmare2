@@ -4,6 +4,8 @@ Bem-vindo ao **Endless Nightmare** - o jogo de terror que vai te deixar com o co
 
 Link Vercel: https://endless-nightmare2.vercel.app/
 
+![image](https://github.com/user-attachments/assets/77ac95a7-5740-481b-874f-16ff46137f1d)
+
 ## 🚀 O Que É Isso?
 
 **Endless Nightmare** é uma aplicação web que oferece uma experiência imersiva com um toque de mistério. A aplicação é composta por duas páginas principais:
