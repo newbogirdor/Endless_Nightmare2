@@ -46,4 +46,4 @@ Navegue até o diretório do projeto:
 
 bash
 Copiar código
-cd endless-nightmare
+cd endless-nightmare2
