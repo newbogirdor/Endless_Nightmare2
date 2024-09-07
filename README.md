@@ -41,7 +41,7 @@ Link Vercel: https://endless-nightmare2.vercel.app/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/endless-nightmare.git
+   git clone https://github.com/seu-usuario/endless-nightmare2.git
 Navegue até o diretório do projeto:
 
 bash
